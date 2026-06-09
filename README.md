@@ -36,7 +36,6 @@ cd0034-project-starter/
 │   ├── 5-saas-integration-plan.ipynb
 │   ├── 6-migration-roadmap.ipynb
 │   └── 7-architecture-decision-record.ipynb
-└── diagrams/                       # 🖼️ Your architecture diagrams
 ```
 
 ---
@@ -47,7 +46,7 @@ cd0034-project-starter/
 
 2. **Complete the solution notebooks** in `solution_documents/` — they are numbered in the order you should work through them. Each notebook corresponds to a step covered in the classroom.
 
-3. **Create diagrams** using a diagramming tool (draw.io, Lucidchart, or similar) and place them in the `diagrams/` folder. Reference them from your notebooks.
+3. **Create diagrams** using Mermaid syntax directly in your notebooks.
 
 ---
 
@@ -63,7 +62,7 @@ cd0034-project-starter/
 
 ## Tools Required
 
-- Architecture diagramming tool (draw.io, Lucidchart, or similar)
+
 - Jupyter Notebook environment
 - No cloud account or spend required
 
@@ -81,17 +80,10 @@ submission/
 ├── 4-data-product-catalog.ipynb
 ├── 5-saas-integration-plan.ipynb
 ├── 6-migration-roadmap.ipynb
-├── 7-architecture-decision-record.ipynb
-└── diagrams/
-    ├── current-state-annotated.png (or .svg, .pdf)
-    ├── target-state-architecture.png (or .svg, .pdf)
-    ├── medallion-layers.png (or .svg, .pdf)
-    ├── domain-model.png (or .svg, .pdf)
-    └── saas-integration.png (or .svg, .pdf)
+└── 7-architecture-decision-record.ipynb
 ```
 
 **Requirements:**
 - Solution documents: Jupyter Notebook (`.ipynb`)
-- Diagrams: PNG, SVG, or PDF — must be legible at standard zoom
-- All diagrams must also be embedded/referenced in their corresponding notebook
+- Diagrams: Mermaid syntax embedded directly in notebook markdown cells
 - File names must match the structure above
